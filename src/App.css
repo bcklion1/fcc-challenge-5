@@ -2,6 +2,7 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
+  --text-color:#fce8fd;
 }
 .App{
   display: 'flex';
@@ -14,8 +15,63 @@ body{
 }
 
 .text{
-  color:#FDE2FF;
+  color: var(--text-color);
 }
 .bigger{
   font-size: 3.5em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+.selector{
+  color: var(--text-color);
+  font-size: 1.5em;
+}
+.break{
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+button{
+  background-color: transparent;
+  border: none;
+  color: var(--text-color);
+}
+.inputs{
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left{
+  float:left;
+}
+.session{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.clock{
+  border:3px solid #3e3949;
+  margin-top: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+.clockTitle{
+  font-size: 2em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: var(--text-color)
+}
+
+.clockTime{
+  font-size: 6em;
+  padding-top: 0;
+  padding-bottom: 5px;
+  color: var(--text-color);
+}
+
+.in{
+  color: var(--text-color);
+  font-size: 26px;
 }
