@@ -39,6 +39,11 @@ button{
   border: none;
   color: var(--text-color);
 }
+button:hover{
+  color: #000000;
+  cursor: pointer;
+}
+
 .inputs{
   width:100%;
   display: flex;
@@ -56,6 +61,7 @@ button{
   margin-top: 15px;
   border-radius: 15px;
   text-align: center;
+  margin-bottom: 10px;
 }
 .clockTitle{
   font-size: 2em;
